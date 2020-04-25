@@ -15,6 +15,7 @@
  */
 // clase  de aplicacion
 #include <iostream>
+#include<ostream>
 #include <cstdlib>
 #include"CuentasAccount.hpp"
 
@@ -33,7 +34,7 @@ int main(int argc, char** argv) {
      
      
      
-     CuentasAccount*cuentaDos=new CuentasAccount("1057608722-5",400000);
+     CuentasAccount* cuentaDos=new CuentasAccount("1057608722-5",400000);
      
      if(cuentaUno.whithdraw(750000)){
          cout<<cuentaUno.getNumber()<<"-->retiro  exitoso"<<endl;
@@ -57,7 +58,7 @@ int main(int argc, char** argv) {
      
      
      cout<<cuentaUno.toString()<<endl;
-     cout<<cuentaDos->toString()<<end;
+     cout<<cuentaDos->toString()<<endl;
      
      
     
