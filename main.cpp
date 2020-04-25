@@ -62,7 +62,7 @@ int main(int argc, char** argv) {
      
      
     
-    
+    //ciborg
      delete(cuentaDos);
     return 0;
 } 
